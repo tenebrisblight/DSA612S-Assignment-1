@@ -10,3 +10,5 @@ curl http://localhost:8080/api/books/1
 
 // to add a new book NB: in powershell curl is an alias for Invoke-RestMethod- i used it here because using curl kept producing errors
 Invoke-RestMethod -Uri "http://localhost:8080/api/books" -Method Post -ContentType "application/json" -Body '{"id": "3", "title": "Ballerina in Action", "author": "WSO2"}'
+
+//yet to implement/translate this into a sql server

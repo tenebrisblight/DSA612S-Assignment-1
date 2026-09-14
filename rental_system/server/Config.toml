@@ -1,0 +1,9 @@
+# Database connection for the Ministry Rental Accommodation System.
+# Uses its OWN database ("rental_accommodation"), separate from Q1's "ministry" db.
+# Matches the default XAMPP MySQL setup (root, no password, port 3306).
+[rental_service.dbConfig]
+host = "localhost"
+port = 3306
+user = "root"
+password = ""
+database = "rental_accommodation"

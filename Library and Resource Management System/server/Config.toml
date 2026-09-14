@@ -1,0 +1,8 @@
+# Database connection for the Ministry Library and Resource Management System.
+# Matches the default XAMPP MySQL setup (root, no password, port 3306).
+[library_service.dbConfig]
+host = "localhost"
+port = 3306
+user = "root"
+password = ""
+database = "ministry"
